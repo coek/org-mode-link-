@@ -1,0 +1,18 @@
+{
+  "name": "org-mode link+",
+  "description": "emacsのorg-mode用のlinkをつくってクリップボードに放り込むよ！ベータだよ！",
+  "version": "0.1.1",
+  "permissions": [
+    "tabs"
+  ],
+  "background_page": "background.html",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "リンクタグつくるよ！",
+    "popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "48": "icon.png"
+  }
+}
